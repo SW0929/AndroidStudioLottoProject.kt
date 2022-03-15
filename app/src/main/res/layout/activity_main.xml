@@ -30,6 +30,11 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:text="1"
+            tools:visibility="visible"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:background="@drawable/circle_red"
+            android:gravity="center"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -39,6 +44,11 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:text="1"
+            tools:visibility="visible"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:background="@drawable/circle_red"
+            android:gravity="center"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -48,6 +58,11 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:text="1"
+            tools:visibility="visible"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:background="@drawable/circle_blue"
+            android:gravity="center"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -57,6 +72,11 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:text="1"
+            tools:visibility="visible"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:background="@drawable/circle_yellow"
+            android:gravity="center"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -64,10 +84,28 @@
             android:id="@+id/fifthN"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
             android:text="1"
+            tools:visibility="visible"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:background="@drawable/circle_green"
+            android:gravity="center"
             android:textSize="18sp"
             android:textStyle="bold" />
 
+        <TextView
+            android:id="@+id/sixthN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            tools:visibility="visible"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:background="@drawable/circle_gray"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <Button
@@ -92,6 +130,7 @@
         app:layout_constraintTop_toTopOf="@id/addButton" />
 
     <Button
+        android:id="@+id/runButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
